@@ -1,0 +1,196 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Large data directories
+large_data/
+
+# Model files and artifacts
+*.model
+*.pkl
+*.joblib
+*.sav
+models/*.pkl
+models/*.joblib
+models/*.sav
+
+# PyTorch model files
+*.pth
+*.pt
+*.ckpt
+*.tar
+
+# TensorFlow model files
+*.pb
+*.h5
+*.hdf5
+*.keras
+saved_model/
+*.tflite
+
+# Scikit-learn models
+*.pkl
+*.joblib
+
+# ONNX models
+*.onnx
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Weights & Biases
+wandb/
+
+# TensorBoard logs
+logs/
+runs/
+tb_logs/
+tensorboard_logs/
+
+# Checkpoints and model saves
+checkpoints/
+checkpoint/
+*.ckpt
+*.checkpoint
+
+# Training outputs
+outputs/
+results/
+experiments/
+saved_models/
+
+# Cache directories
+.cache/
+*.cache
+__pycache__/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Log files
+*.log
+*.out
+*.err
+training.log
+validation.log
+
+# Configuration files with secrets
+config.py
+secrets.json
+credentials.json
+.env
+.env.local
+.env.production
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.spyderproject
+.spyproject
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Large files (common ML file extensions)
+*.zip
+*.tar.gz
+*.tar
+*.rar
+*.7z
+
+# GPU memory dumps
+*.gpu
+
+# Profiling data
+*.prof
+*.lprof 

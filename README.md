@@ -114,19 +114,3 @@ Change `player_key` and `year` to inspect another row in the prepared dataset.
 - `train_model`: training and validation loops using negative log-likelihood and gradient clipping.
 
 The saved checkpoint includes the model state, architecture settings, training settings, loss histories, timestamps, and paths to the fitted scalers.
-
-## Current limitations
-
-- Notebook file paths are currently machine-specific and must be updated before use.
-- There is no pinned dependency or lock file, so results may vary across package versions.
-- The split is performed across rows rather than by season, and the notebook does not yet report calibrated forecasting metrics or compare against a baseline.
-- The MDN output layers currently expect the final hidden layer to contain 64 units.
-- Reproducibility is partial: the train/test split is seeded, but PyTorch and NumPy sampling are not.
-
-## Roadmap
-
-- Move preprocessing and training into configurable command-line scripts.
-- Add a pinned environment and automated tests.
-- Use time-aware validation and baseline comparisons.
-- Add checkpoint loading and a reusable inference interface.
-- Track forecast accuracy and distribution calibration by position and season.
